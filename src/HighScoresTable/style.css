@@ -1,0 +1,23 @@
+.mainApp{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.country-score{
+    border: 5px solid greenyellow;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.scores{
+    border: 1px solid black;
+}
+
+.score{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}

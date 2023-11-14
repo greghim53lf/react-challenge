@@ -1,0 +1,142 @@
+.bg-header {
+  background-color: hsl(180, 29%, 50%);
+  height: 100px;
+}
+
+.bg-header img {
+  height: 100%;
+  width: 100%;
+}
+
+.filters{
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px 0 hsl(180, 29%, 50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  top: -25px;
+}
+
+.filter-skill{
+  background-color: hsl(180, 29%, 50%);
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px 0 0 5px;
+}
+
+.filter > button{
+  background-color: hsl(180, 29%, 50%);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px;
+}
+
+.filter > button:hover{
+  background-color: hsl(180, 14%, 20%);
+}
+
+.clear{
+  color: hsl(180, 29%, 50%);
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: auto;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.clear:hover{
+  color: hsl(180, 14%, 20%);
+}
+
+.jobs-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.job {
+  border-radius: 12px;
+  box-shadow: 0 2px 5px 0 hsl(180, 29%, 50%);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.featured{
+  border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+.image {
+  margin-right: 20px;
+}
+
+.details{
+    margin-right: 10px;
+}
+
+.company-name {
+  color: hsl(180, 29%, 50%);
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.isNew {
+  background-color: hsl(180, 29%, 50%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 5px;
+  margin-right: 5px;
+}
+
+.isFeatured {
+  background-color: hsl(180, 14%, 20%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 5px;
+}
+
+.position {
+  font-weight: 900;
+  color: hsl(180, 14%, 20%);
+  margin: 10px 0;
+}
+
+.job-info {
+  color: gray;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.skills {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: hsl(180, 29%, 50%);
+  color: hsl(180, 14%, 20%);
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2px 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background-color: hsl(180, 14%, 20%);
+  color: hsl(180, 29%, 50%);
+}

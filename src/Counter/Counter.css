@@ -1,0 +1,15 @@
+.meal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.meal-name{
+    color: #fff;
+    cursor: pointer;
+    background-color: blue;
+    width: 40%;
+}
+
+.meal-count{
+    width: 40%
+}

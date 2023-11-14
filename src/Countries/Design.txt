@@ -1,0 +1,11 @@
+-search
+
+when a region is selected, search through the region.
+when a search is made and filter by region
+
+search by name capital and country
+search by region
+
+initialState = all countries
+empty string === allCountries
+multiple text = no results found

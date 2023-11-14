@@ -1,0 +1,37 @@
+button{
+    cursor: pointer;
+}
+
+.babynames{
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.baby-name{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(130, 128, 128);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-bar{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.favorites{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}

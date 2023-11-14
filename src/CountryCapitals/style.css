@@ -1,0 +1,108 @@
+.quiz-app {
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-app .container {
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+  width: 90%;
+}
+
+.answered-question{
+  border-bottom: 1px solid black;
+}
+
+.tries{
+  border: 1px solid cornflowerblue;
+  border-radius: 12px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.tries span{
+  font-weight: 900;
+}
+
+.question {
+  border-bottom: 1px solid cornflowerblue;
+  font-weight: 900;
+  padding: 5px;
+  text-align: center;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.options button{
+  width: 100%;
+}
+
+button {
+  background-color: cornflowerblue;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s;
+  outline: none;
+}
+
+button:hover {
+  background-color: #fff;
+  color: cornflowerblue;
+}
+
+.result{
+  font-weight: 900;
+  text-align: center;
+}
+
+.next-button {
+  background-color: black;
+}
+
+.next-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.score{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.score span{
+  color: cornflowerblue;
+  border-bottom: 5px solid cornflowerblue;
+}
+
+.final-score{
+  border-bottom: 1px solid cornflowerblue;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.final-score span{
+  font-weight: 700;
+}
+
+.remark{
+  font-weight: 800;
+}

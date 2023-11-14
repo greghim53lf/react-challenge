@@ -1,0 +1,61 @@
+.mainApp {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+}
+
+.image img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.slideDots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.dot {
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+}
+
+.buttons,
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button,
+.controls button {
+  box-shadow: 0 0 5px 0;
+  font-size: 18px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.buttons button:hover {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.353);
+  color: #fff;
+}
