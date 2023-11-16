@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import MainApp from "./Quiz/MainApp";
+import MainApp from "./SenGen/MainApp";
 
 function App() {
   return (
